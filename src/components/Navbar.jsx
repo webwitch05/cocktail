@@ -28,17 +28,17 @@ const Navbar= ()=>{
                     <img src="images/logo.png" alt="logo"/>
                     <p>Velvet Pour</p>
                 </a>
-            </div>
 
-            <ul>
-                {navLinks.map((link)=>(
-                    <li>
-                        <a href={`#${ link.id }`}>
-                            { link.title }
-                        </a>
-                    </li>
-                ))}
-            </ul>
+                <ul>
+                    {navLinks.map((link)=>(
+                        <li>
+                            <a href={`#${ link.id }`}>
+                                { link.title }
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </nav>
     )
 }
