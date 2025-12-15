@@ -1,5 +1,4 @@
 import { ScrollTrigger, SplitText } from 'gsap/all'
-import './App.css'
 import gsap from 'gsap';
 
 import Navbar from './components/Navbar';
