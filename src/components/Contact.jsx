@@ -24,7 +24,7 @@ const Contact= ()=>{
             stagger: 0.02
         })
 
-        .from(".content h3, .content p", {
+        .from('#contact h3, #contact p', {
             opacity: 0,
             yPercent: 100,
             stagger: 0.02            
@@ -35,7 +35,7 @@ const Contact= ()=>{
         })
         .to("#f-left-leaf",{
             y: "-50", duration: 1, ease: "power1.inOut"
-        })        
+        }, '<')        
     })
 
     return(
