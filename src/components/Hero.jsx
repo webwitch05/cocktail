@@ -19,7 +19,7 @@ const Hero= ()=>{
                 yPercent: 100,
                 duration: 1.8,
                 ease: "expo.out",
-                stagger: 0.09
+                stagger: 0.06,
         })
 
         gsap.from(subtitleSplit.lines, {
@@ -27,8 +27,8 @@ const Hero= ()=>{
             yPercent: 100,
             duration: 1.8,
             ease: "expo.out",
-            stagger: 0.09,
-            delay: 1
+            stagger: 0.06,
+            delay: 1,
         })
         
         gsap.timeline({
