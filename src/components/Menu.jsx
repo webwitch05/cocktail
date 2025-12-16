@@ -1,11 +1,10 @@
-import { useRef, useState } from "react"
+import { useState } from "react"
 import { allCocktails } from "../../constants"
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 
 const Menu= ()=>{
 
-    const contentRef= useRef()
     const [currentIndex, setCurrentIndex]= useState(0)
     
     useGSAP(()=>{
